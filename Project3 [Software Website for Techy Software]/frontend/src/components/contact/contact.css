@@ -1,0 +1,219 @@
+.contact-body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/work.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 900;
+    font-size: 3vw;
+    font-style: normal;
+    color: white;
+    z-index: 2;
+    background: transparent;
+    margin: 0;
+    padding: 10px;
+}
+
+.nav {
+    opacity: 0.5;
+    color: white;
+}
+
+.nav-link {
+    margin: 10vw;
+    color: black;
+}
+
+.contact-tagline {
+    width: 50vw;
+    position: absolute;
+    top: 23vh;
+    left: 17vw;
+    font-weight: 900;
+    font-size: 5vw;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.contact-help {
+    width: 100%;
+    height: 88.5vh;
+    background-color: wheat;
+    opacity: 1;
+    position: absolute;
+    top: 50vh;
+    z-index: 2;
+    padding: 1vw;
+}
+
+.contact-connect-btn {
+    margin: 1vw;
+    border: none;
+    background-color: rgb(224, 169, 66);
+    color: black;
+    font-weight: 900;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+.contact-connect-btn:hover{
+    background-color: rgb(220, 149, 15);
+}
+
+.contact-footer {
+    position: absolute;
+    top: 210vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 2vw;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw;
+    width: 50vw;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw;
+    width: 50vw;
+    text-align: center;
+    margin-left: 20vw;
+}
+
+.contact-footer_head {
+    font-weight: 900;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.contact-footer_text {
+    font-weight: 500;
+}
+
+.contact-link {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-link-item {
+    margin: 0.5vw;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-social {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-img {
+    height: 70px;
+}
+
+.contact-loc-img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contact-phone-img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contact-location{
+    margin: 1vw;
+}
+
+.contact-phone{
+    margin: 1.5vw;
+}
+
+.contact-social {
+    padding: 1.5vw;
+}
+
+.contact-copyright {
+    position: absolute;
+    top: 235vh;
+    padding: 1vw;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+
+}
+.contact-help{
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+}
+.contact-help-content{
+    width: 50vw;
+    padding: 2vw;
+}
+.contact-help-content-up{
+    margin: 1vw;
+}
+.contact-help-content-down{
+    margin: 1vw;
+    margin-top: 10vh;
+}
+.contact-help-head{
+    margin: 0.5vw;
+    font-weight: 900;
+    font-size: 3vw;
+}
+.contact-form{
+    width: 40vw;
+    padding: 4vw;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+.contact-input{
+    background-color: whitesmoke;
+    margin: 1vw;
+    width: 30vw;
+    height: 8vh;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.feedback-btn{
+    margin-left: 3vw;
+}
+.contact-error {
+    margin: 10px;
+    color: red;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 20px;
+}

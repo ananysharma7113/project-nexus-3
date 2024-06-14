@@ -1,0 +1,44 @@
+.modal-input{
+    height: 20vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    margin: 10px;
+}
+.modal-name{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    margin: 10px;
+}
+.header{
+    font-weight: 900;
+    text-align: center;
+    
+}
+.title{
+    font-weight: 900;
+    text-align: center;
+}
+.modal-btn {
+    margin: 20px;
+    border: none;
+    background-color: rgb(224, 169, 66);
+    color: black;
+    font-weight: 900;
+    padding: 20px;
+    border-radius: 10px;
+}
+.modal-btn:hover {
+    background-color: rgb(220, 149, 15);
+}
+.modal-form{
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

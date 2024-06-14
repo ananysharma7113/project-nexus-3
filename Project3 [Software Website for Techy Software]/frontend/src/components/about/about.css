@@ -1,0 +1,444 @@
+.about-body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/work.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 900;
+    font-size: 3vw;
+    font-style: normal;
+    color: white;
+    z-index: 2;
+    background: transparent;
+    margin: 0;
+    padding: 10px;
+}
+
+.nav {
+    opacity: 0.5;
+    color: white;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+.about-tagline {
+    width: 50vw;
+    position: absolute;
+    top: 23vh;
+    left: 17vw;
+    font-weight: 900;
+    font-size: 5vw;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.about_ {
+    width: 100%;
+    background-color: wheat;
+    opacity: 1;
+    position: absolute;
+    top: 50vh;
+    z-index: 2;
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.about_img{
+    border-radius: 10%;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    padding: 0.5vw;
+    width: 30vw;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+.about-head-text{
+    font-weight: 700;
+    margin: 1vw;
+}
+.about-text{
+    margin: 1vw;
+}
+
+.about-head {
+    font-weight: 900;
+    margin: 1vw;
+}
+
+.about-card-content {
+    padding: 1vw;
+    width: 30vw;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 220vh;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px;
+    text-align: center;
+    box-shadow: 10px 10px 10px grey;
+    left: 35vw;
+    opacity: 0.8;
+}
+
+.about-connect-btn {
+    margin: 2.5vw;
+    border: none;
+    background-color: rgb(224, 169, 66);
+    color: black;
+    font-weight: 900;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+.about-connect-btn:hover{
+    background-color: rgb(220, 149, 15);
+}
+
+.about-build {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 265vh;
+    padding: 4vw;
+    width: 100%;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.about-build_head {
+    width: 50vw;
+    font-size: 4vw;
+    margin-top: 3vh;
+    font-weight: 900;
+}
+
+.about-build_text {
+    width: 50vw;
+    padding: 4vw;
+    font-weight: 500;
+}
+
+.about-footer {
+    position: absolute;
+    top: 315vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 2vw;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw;
+    width: 50vw;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5vw;
+    width: 50vw;
+    text-align: center;
+    margin-left: 1vw;
+}
+
+.about-footer_head {
+    font-weight: 900;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.about-footer_text {
+    font-weight: 500;
+}
+
+.about-link {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-link-item {
+    margin: 0.5vw;
+    text-decoration: none;
+    color: black;
+}
+
+.about-social {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-img {
+    height: 70px;
+    cursor: pointer;
+}
+
+.about-social {
+    padding: 1vw;
+}
+
+.about-copyright {
+    position: absolute;
+    top: 340vh;
+    padding: 1vw;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+.rating{
+    position: absolute;
+    top: 106vh;
+    background-color: whitesmoke;
+    padding: 2.5vw;
+    width: 100%;
+    opacity: 0.9;
+}
+.rating-head{
+    font-weight: 900;
+    margin: 4vw;
+    font-size: 4vw;
+}
+.rating-container{
+    display: flex;
+    flex-direction: row;
+}
+.rating-box{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.rating-img{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+.rating-img-content{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+}
+.rating-item{
+    margin: 1.5vw;
+    font-weight: 600;
+}
+.customer-name{
+    margin: 1vw;
+    font-weight: 500;
+}
+
+@media (max-width: 1060px) {
+    .rating{
+        top: 130vh;
+    }
+    .about-card-content{
+        top: 244vh;
+    }
+    .about-build{
+        top: 285vh;
+    }
+    .about-footer{
+        top: 330vh;
+    }
+    .about-copyright{
+        top:355vh;
+    }
+}
+
+@media (max-width: 955px) {
+    .rating {
+        top: 150vh;
+    }
+
+    .about-card-content {
+        top: 264vh;
+    }
+
+    .about-build {
+        top: 305vh;
+    }
+
+    .about-footer {
+        top: 350vh;
+    }
+
+    .about-copyright {
+        top: 375vh;
+    }
+}
+
+@media (max-width: 896px) {
+    .rating {
+        top: 110vh;
+    }
+
+    .about_img {
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .about-card-content {
+        top: 234vh;
+    }
+
+    .about-build {
+        top: 285vh;
+    }
+
+    .about-footer {
+        top: 335vh;
+    }
+
+    .about-copyright {
+        top: 360vh;
+    }
+}
+
+@media (max-width: 560px) {
+    .rating {
+        top: 120vh;
+    }
+
+    .about_img {
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .about-card-content {
+        top: 274vh;
+        width: 60vw;
+        left: 20vw;
+    }
+
+    .about-build {
+        top: 315vh;
+    }
+
+    .about-footer {
+        top: 385vh;
+    }
+
+    .about-copyright {
+        top: 410vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .rating {
+        top: 120vh;
+    }
+
+    .about_img {
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .about-card-content {
+        top: 286vh;
+        width: 60vw;
+        left: 20vw;
+    }
+
+    .about-build {
+        top: 315vh;
+    }
+
+    .about-footer {
+        top: 385vh;
+    }
+
+    .about-copyright {
+        top: 410vh;
+    }
+}
+
+@media (max-width: 420px) {
+    .rating {
+        top: 120vh;
+    }
+
+    .about_img {
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .about-card-content {
+        top: 296vh;
+        width: 60vw;
+        left: 20vw;
+    }
+
+    .about-build {
+        top: 335vh;
+    }
+
+    .about-footer {
+        top: 405vh;
+    }
+
+    .about-copyright {
+        top: 430vh;
+    }
+}
+
+@media (max-width: 405px) {
+    .rating {
+        top: 150vh;
+    }
+
+    .about_img {
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .about-card-content {
+        top: 356vh;
+        width: 60vw;
+        left: 20vw;
+    }
+
+    .about-build {
+        top: 390vh;
+    }
+
+    .about-footer {
+        top: 475vh;
+    }
+
+    .about-copyright {
+        top: 500vh;
+    }
+}
